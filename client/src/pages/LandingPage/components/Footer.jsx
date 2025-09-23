@@ -23,7 +23,7 @@ const Footer = () => {
 
                         {/* Copyright */}
                         <div className=''>
-                            <p className={`text-sm text-gray-600`}>(c) {new Date().getFullYear()} Time To Program</p>
+                            <p className={`text-sm text-gray-600`}>(c) {new Date().getFullYear()} DrKay</p>
                             
                         </div>
                     </div>

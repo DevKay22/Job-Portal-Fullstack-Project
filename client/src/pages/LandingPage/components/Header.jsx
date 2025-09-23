@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
     const isAuthenticated = true;
-    const user = {fullName : "Alex", role: "employer"};
+    const user = {fullName : "Kay", role: "employer"};
     const navigate = useNavigate();
   return <motion.header 
     initial={{opacity: 0, y: -20}} 
