@@ -1,4 +1,4 @@
-import { validatePassword } from '../Utils/helper';
+import { validateEmail, validatePassword, validateAvatar } from '../Utils/helper';
 import { motion } from 'framer-motion'
 import { 
   User,
@@ -14,8 +14,6 @@ import {
   Loader
  } from 'lucide-react';
 import { useState } from 'react';
-import { validateEmail } from '../Utils/helper';
-
 
 
 
